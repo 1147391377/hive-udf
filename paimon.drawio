@@ -1,0 +1,198 @@
+<mxfile host="app.diagrams.net" modified="2024-05-09T07:36:39.215Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="XCUnZ_DhZY1oBIRLQBHj" version="24.3.1" type="github">
+  <diagram id="2pUIhmt7z4SOJBWyxBwC" name="Page-1">
+    <mxGraphModel dx="1590" dy="885" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4_AAo_vmlgMmhj1aewk4-7" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=23.29629629629619;fillStyle=dashed;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="560.25" y="520" width="209.75" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="4_AAo_vmlgMmhj1aewk4-3" value="SLS/&lt;br&gt;CDC数据源" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="50" y="592.5" width="110" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="4_AAo_vmlgMmhj1aewk4-5" value="" style="rounded=1;whiteSpace=wrap;html=1;fillStyle=dashed;sketch=1;curveFitting=1;jiggle=2;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="250" y="550" width="250" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="4_AAo_vmlgMmhj1aewk4-6" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;SST&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="621" y="579" width="88" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4_AAo_vmlgMmhj1aewk4-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="4_AAo_vmlgMmhj1aewk4-8" target="4_AAo_vmlgMmhj1aewk4-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_AAo_vmlgMmhj1aewk4-44" value="已存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;fontFamily=Comic Sans MS;fontSize=14;fontColor=default;fillColor=none;gradientColor=none;" parent="4_AAo_vmlgMmhj1aewk4-11" vertex="1" connectable="0">
+          <mxGeometry x="-0.4429" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_AAo_vmlgMmhj1aewk4-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" target="4_AAo_vmlgMmhj1aewk4-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="635.76" as="targetPoint" />
+            <mxPoint x="425" y="635.7650000000001" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="530" y="636" />
+              <mxPoint x="530" y="609" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_AAo_vmlgMmhj1aewk4-8" value="Lookup LSM Tree&lt;br&gt;判断UID是否存在" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;" parent="1" vertex="1">
+          <mxGeometry x="290" y="590" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4_AAo_vmlgMmhj1aewk4-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=100;exitDy=35;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="4_AAo_vmlgMmhj1aewk4-9" target="4_AAo_vmlgMmhj1aewk4-25" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="677" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="750" y="682" />
+              <mxPoint x="750" y="636" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_AAo_vmlgMmhj1aewk4-47" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;+I -U +U -D&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;fontFamily=Comic Sans MS;fontSize=17;fontColor=default;fillColor=none;gradientColor=none;" parent="4_AAo_vmlgMmhj1aewk4-23" vertex="1" connectable="0">
+          <mxGeometry x="0.5028" y="3" relative="1" as="geometry">
+            <mxPoint x="-11" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XAqVWbp9EKoacZfUQd1Q-8" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;+I -U +U -D&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;fontFamily=Comic Sans MS;fontSize=17;fontColor=default;fillColor=none;gradientColor=none;" parent="4_AAo_vmlgMmhj1aewk4-23" vertex="1" connectable="0">
+          <mxGeometry x="0.5028" y="3" relative="1" as="geometry">
+            <mxPoint x="49" y="193" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_AAo_vmlgMmhj1aewk4-9" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.layered_rect;dx=10;outlineConnect=0;whiteSpace=wrap;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="614" y="646.63" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4_AAo_vmlgMmhj1aewk4-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="4_AAo_vmlgMmhj1aewk4-3" target="4_AAo_vmlgMmhj1aewk4-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4_AAo_vmlgMmhj1aewk4-12" value="&lt;font style=&quot;font-size: 17px;&quot; face=&quot;Comic Sans MS&quot;&gt;结束&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="325" y="748.62" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4_AAo_vmlgMmhj1aewk4-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=25;entryPerimeter=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="4_AAo_vmlgMmhj1aewk4-8" target="4_AAo_vmlgMmhj1aewk4-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="636" />
+              <mxPoint x="530" y="672" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_AAo_vmlgMmhj1aewk4-43" value="不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;fontFamily=Comic Sans MS;fontSize=15;fontColor=default;fillColor=none;gradientColor=none;" parent="4_AAo_vmlgMmhj1aewk4-21" vertex="1" connectable="0">
+          <mxGeometry x="-0.6394" y="-3" relative="1" as="geometry">
+            <mxPoint x="6" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XAqVWbp9EKoacZfUQd1Q-10" value="不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;fontFamily=Comic Sans MS;fontSize=15;fontColor=default;fillColor=none;gradientColor=none;" parent="4_AAo_vmlgMmhj1aewk4-21" vertex="1" connectable="0">
+          <mxGeometry x="-0.6394" y="-3" relative="1" as="geometry">
+            <mxPoint x="66" y="188" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_AAo_vmlgMmhj1aewk4-25" value="" style="rounded=1;whiteSpace=wrap;html=1;fillStyle=dashed;sketch=1;curveFitting=1;jiggle=2;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="845" y="560" width="235" height="151.26" as="geometry" />
+        </mxCell>
+        <mxCell id="4_AAo_vmlgMmhj1aewk4-26" value="增量计数&lt;br&gt;当日UV+1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="910" y="618.13" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4_AAo_vmlgMmhj1aewk4-28" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillStyle=dashed;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1140" y="531.26" width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="4_AAo_vmlgMmhj1aewk4-34" value="Flink" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=17;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="350" y="555" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4_AAo_vmlgMmhj1aewk4-36" value="+I +U -D" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=15;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="170" y="605" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4_AAo_vmlgMmhj1aewk4-45" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;ChangeLog File&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=17;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="634" y="656.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4_AAo_vmlgMmhj1aewk4-48" value="&lt;b&gt;Flink&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="940" y="564.38" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4_AAo_vmlgMmhj1aewk4-49" value="&lt;b&gt;Paimon中间层&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=15;strokeWidth=0;" parent="1" vertex="1">
+          <mxGeometry x="607.62" y="520" width="115" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="4_AAo_vmlgMmhj1aewk4-50" value="&lt;b&gt;Explorer&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="1215" y="565.64" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4_AAo_vmlgMmhj1aewk4-51" value="双写 SST和ChangeLog" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="539.24" y="635" width="68.38" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="4_AAo_vmlgMmhj1aewk4-52" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;增量UV&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Comic Sans MS;fontSize=17;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="4_AAo_vmlgMmhj1aewk4-25" target="4_AAo_vmlgMmhj1aewk4-28" edge="1">
+          <mxGeometry x="-0.0115" y="-16" relative="1" as="geometry">
+            <mxPoint x="16" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_AAo_vmlgMmhj1aewk4-53" value="&lt;p style=&quot;border-color: var(--border-color); font-size: 10px; text-align: left;&quot;&gt;存储每小时的增量UV&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); font-size: 10px; text-align: left;&quot;&gt;2024010100 UV:500&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); font-size: 10px; text-align: left;&quot;&gt;2024010101 UV:300&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); font-size: 10px; text-align: left;&quot;&gt;2024010102 UV:200&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); font-size: 10px; text-align: left;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&amp;nbsp; &amp;nbsp;……&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Comic Sans MS;fontSize=17;fontColor=default;fillColor=default;gradientColor=none;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="1175" y="605" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="XAqVWbp9EKoacZfUQd1Q-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" source="XAqVWbp9EKoacZfUQd1Q-1" target="XAqVWbp9EKoacZfUQd1Q-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XAqVWbp9EKoacZfUQd1Q-1" value="SLS/&lt;br&gt;CDC数据源" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="110" y="1005" width="110" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="XAqVWbp9EKoacZfUQd1Q-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillStyle=dashed;sketch=1;curveFitting=1;jiggle=2;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="300" y="969" width="250" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="XAqVWbp9EKoacZfUQd1Q-3" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=23.29629629629619;fillStyle=dashed;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="630" y="921" width="210" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="XAqVWbp9EKoacZfUQd1Q-4" value="构造最细粒度&lt;div&gt;RoaringBitmap&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
+          <mxGeometry x="345" y="1008" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XAqVWbp9EKoacZfUQd1Q-5" value="Flink" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=17;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="395" y="974" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XAqVWbp9EKoacZfUQd1Q-6" value="&lt;b&gt;Paimon中间层&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=15;strokeWidth=0;" parent="1" vertex="1">
+          <mxGeometry x="677.38" y="931" width="115" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="XAqVWbp9EKoacZfUQd1Q-7" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;SST&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="684.38" y="991" width="88" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XAqVWbp9EKoacZfUQd1Q-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=100;exitDy=35;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" source="XAqVWbp9EKoacZfUQd1Q-9" target="XAqVWbp9EKoacZfUQd1Q-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XAqVWbp9EKoacZfUQd1Q-9" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.layered_rect;dx=10;outlineConnect=0;whiteSpace=wrap;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="677.38" y="1058.63" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XAqVWbp9EKoacZfUQd1Q-11" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;ChangeLog File&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=17;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="697.38" y="1068.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XAqVWbp9EKoacZfUQd1Q-12" value="双写 SST和ChangeLog" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="599.25" y="826" width="68.38" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="XAqVWbp9EKoacZfUQd1Q-22" value="" style="rounded=1;whiteSpace=wrap;html=1;fillStyle=dashed;sketch=1;curveFitting=1;jiggle=2;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="907" y="964.87" width="235" height="151.26" as="geometry" />
+        </mxCell>
+        <mxCell id="XAqVWbp9EKoacZfUQd1Q-23" value="&lt;b&gt;Flink&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="987" y="979" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XAqVWbp9EKoacZfUQd1Q-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" source="XAqVWbp9EKoacZfUQd1Q-24" target="XAqVWbp9EKoacZfUQd1Q-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XAqVWbp9EKoacZfUQd1Q-24" value="维度膨胀+&lt;div&gt;RoaringBitmap基数计算&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="949.5" y="1019" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XAqVWbp9EKoacZfUQd1Q-25" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillStyle=dashed;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="941" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="XAqVWbp9EKoacZfUQd1Q-26" value="&lt;b&gt;Explorer&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="1275" y="971.87" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XAqVWbp9EKoacZfUQd1Q-27" value="&lt;p style=&quot;border-color: var(--border-color); font-size: 10px; text-align: left;&quot;&gt;多维度&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); font-size: 10px; text-align: left;&quot;&gt;累计UV&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Comic Sans MS;fontSize=17;fontColor=default;fillColor=default;gradientColor=none;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="1247.5" y="1025" width="105" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="XAqVWbp9EKoacZfUQd1Q-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" source="XAqVWbp9EKoacZfUQd1Q-4" target="XAqVWbp9EKoacZfUQd1Q-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XAqVWbp9EKoacZfUQd1Q-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=25.000000000000004;entryPerimeter=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" source="XAqVWbp9EKoacZfUQd1Q-4" target="XAqVWbp9EKoacZfUQd1Q-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XAqVWbp9EKoacZfUQd1Q-31" value="双写 SST和ChangeLog" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="607.62" y="1039.5" width="68.38" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="XAqVWbp9EKoacZfUQd1Q-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" source="XAqVWbp9EKoacZfUQd1Q-26" target="XAqVWbp9EKoacZfUQd1Q-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
